@@ -1,0 +1,73 @@
+#landing {
+	min-height: 90vh;
+	position: relative;
+	color: #fff;
+
+	.container {
+		width: 90%;
+		padding-top: 8vh;
+	}
+
+	h1 {
+		font-family: $header-font;
+		font-weight: normal;
+		font-size: 14vw;
+		margin-bottom: 0;
+	}
+
+	.hide-on-large-only {		
+		font-size: 15vh;
+		margin: 0px 10px 10px 10px;
+	}
+
+	a {
+		color: #fff;
+		background-color: $secondary-color;
+		font-family: $secondary-font;
+		font-size: 1.2em;
+		letter-spacing: 1px;
+		padding: 11px 48px;
+		cursor: pointer;		
+	}
+}
+
+.slider {
+	.slides li .caption {
+		left: 5% !important;
+		top: 10% !important;
+		width: 90% !important;
+	}	
+
+	.indicators {
+		left: auto !important;
+		right: 0 !important;
+		bottom: 45% !important;
+
+		.indicator-item{
+			display: block !important;
+			height: 10px !important;
+			width: 10px !important;
+			margin: 7px 12px !important;
+		}
+
+		.indicator-item.active {
+			background-color: $primary-color !important;
+		}
+	}
+}
+
+.cloud {
+	width: 100%;
+	position: absolute;
+	bottom: -5vw;
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+	z-index: 2;
+}
+
+.cloudRev {
+	top: -5vw;
+	-webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    z-index: 2;
+}

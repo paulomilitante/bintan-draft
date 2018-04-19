@@ -1,0 +1,67 @@
+.page-footer {
+	background-color: #fff !important;
+	color: #000 !important;
+	z-index: 3;
+	position: relative;
+	font-family: $secondary-font;
+	padding-top: 0 !important;
+
+	.container {
+		width: 90%;
+	}
+}
+
+.footer-copyright {
+	background-color: #fff !important;
+	color: #e0e0e0 !important;
+}
+
+.footer-header {
+	font-family: $header-font;
+	color: $primary-color;
+	font-size: 4.5vw;
+}
+
+.sitemap-links a {
+	color: #777;
+	font-size: .9em;
+}
+
+.subscribe-field {
+	font-family: $primary-font;
+	font-size: 2vh;
+	width: 75%;
+	line-height: 5vh;
+	margin: 1vmin auto;
+	padding-left: 10px; 
+	border: 1px solid $primary-color;
+}
+
+.submit-email {
+	font-family: $primary-font;
+	font-size: 2vh;
+	width: 75%;
+	line-height: 5vmin;
+	margin: 1vh auto;
+	padding: 0 10px; 
+	background-color: $primary-color !important;	
+	color: #fff !important;
+	border-radius: 40px !important;
+}
+
+@media only screen and (max-width: 750px) {
+	.footer-header {
+		font-size: 30vw;
+		text-align: center;
+
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.sitemap-links {
+		padding-left: 3vw !important;
+		padding-right: 2vw !important;
+		border-left: 2px solid #e0e0e0;
+		border-right: 2px solid #e0e0e0;
+	}
+}

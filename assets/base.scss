@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+$primary-color: #8ab4e0;
+$secondary-color: #72c5b5;
+$primary-font: Proxima;
+$secondary-font: Proxima Light;
+$header-font: Hello Beautiful;
+$header-font-2: Hello Beautiful Marker;
+
+
+
+@mixin font($family,$url,$weight) {
+	font-family: $family;
+	src: url($url);
+	font-weight: $weight;
+}
+
+@font-face {
+	@include font(Proxima Light,"fonts/ProximaNova/ProximaNova-Light.otf",normal);
+}
+
+@font-face {
+	@include font(Proxima,"fonts/ProximaNova/ProximaNova-Regular.otf",normal);
+}
+
+@font-face {
+	@include font(Proxima,"fonts/ProximaNova/ProximaNova-Bold.otf",bold);
+}
+
+@font-face {
+	@include font(Hello Beautiful,"fonts/HelloBeautiful.otf",normal);
+}
+
+@font-face {
+	@include font(Hello Beautiful Marker,"fonts/HelloBeautiful-Marker.otf",normal);
+}
+
+
+@import 'nav';
+@import 'landing';
+@import 'welcome';
+@import 'search';
+@import 'gallery';
+@import 'footer';

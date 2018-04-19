@@ -1,0 +1,108 @@
+nav	{
+	overflow: hidden !important;
+	height: auto !important;
+	box-shadow: none !important;
+	background-color: $primary-color !important;
+	font: $primary-font, lighter;
+	letter-spacing: 1px;
+
+	ul a {
+		color: #fff !important;
+	}
+}
+
+.sidenav {
+	background-color: $primary-color !important;
+
+	li > a {
+		color: #fff !important;
+	}
+}
+
+.brand-logo {
+	height: 200%;
+	margin: 1vh 1vw;
+	width: 13%;
+	position: relative;
+
+	img {
+		height: 100%;
+		background-color: #fff;
+		margin: 0 auto;
+		display: block;		
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	.brand-logo {
+		height: 100%;
+		margin:	1px;
+		width: auto;
+	}
+}
+
+.nav-menu-1 {
+	padding: 0;
+	margin: 0 3vw;
+
+	li a {
+		padding: 0.5em 0.8vw;
+		font-size: 1vw;
+	}
+}
+
+#dropdown1 li a,
+#dropdown2 li a {
+	padding: 14px 16px !important;
+	color: $primary-color !important;
+}
+
+.liveCam {
+	margin: 0 2vw;
+
+	img {
+		margin-right: 0.5vw;
+	}
+
+	span {
+		margin-top: 5px;
+	}
+}
+
+.dropdown-trigger {
+	span {
+		margin-top: 5px;
+	}
+
+	img	{
+		margin-top: 3px;
+		height: 12px;
+	}
+}
+
+.subButton {
+	border:	1px solid white;
+	padding: 0 1vw !important;
+	line-height: 35px;
+	border-radius: 2px;
+	margin: 5px 2vw 0 0;
+}
+
+.nav-menu-2 {
+	border-top: 1px solid white;
+	margin: 0 3vw;
+	min-width: 80%;	
+
+	li a {
+		padding: 0 1.9vw;
+		font-size: 1vw;
+	}
+}
+
+.nav-wrapper .input-field input[type=search] {
+	display: inline-block;
+	height: 2.5em !important;
+	padding-left: 2.5rem !important;
+	padding-right: 1em;
+	font-size: 1vw;
+}

@@ -1,0 +1,106 @@
+#gallery {
+	background-image: url("img/ilovebintan.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+	color: #fff;
+	padding: 15vh 0;
+
+	.container {
+		font-weight: lighter;
+	}
+
+	h3 {
+		font-family: $header-font-2;
+		font-size: 6vw;
+		letter-spacing: 1px;
+
+		img {
+			width: 2vw;
+			margin: 1vw;
+		}
+	}
+
+	p {
+		letter-spacing: 5px;
+		font-family: $secondary-font;
+		font-size: 1.1em;
+		opacity: 0.7;
+	}
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+	#gallery h3 {
+		font-size: 15vw;
+	}
+
+	#gallery h3 img {
+		width: 5vw;
+		margin: 2vw;
+	}
+}
+
+
+.instagram-image {
+	border: 10px solid white;
+	width: 100%;
+	padding: 40%;
+	margin-top: 2vw;
+	cursor: pointer;
+}
+
+.instagram-image:hover {
+	border-color: $primary-color;
+}
+
+.instagram-image-1 {
+	background-image: url("img/instagram-image-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.instagram-image-2 {
+	background-image: url("img/instagram-image-2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.instagram-image-3 {
+	background-image: url("img/instagram-image-3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.instagram-image-4 {
+	background-image: url("img/instagram-image-4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.instagram-image-5 {
+	background-image: url("img/instagram-image-5.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.instagram-image-6 {
+	background-image: url("img/instagram-image-6.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.instagram-image-7 {
+	background-image: url("img/instagram-image-7.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.instagram-image-8 {
+	background-image: url("img/instagram-image-8.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

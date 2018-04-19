@@ -1,0 +1,67 @@
+#search-section {
+	font-family: $primary-font;
+	z-index: 3;
+	position: relative;
+	margin: 15vh auto 0 auto;
+
+	.container {
+		width: 90% !important;
+	}
+
+	button {
+		border-radius: 40px;
+		background-color: $primary-color;
+		color: #fff;
+		margin: 10px auto;
+		padding: 0 20px;
+	}
+
+	select {
+		margin: 0;
+		font-size: .9em;
+		-webkit-appearance: none; 
+		-moz-appearance: none;
+		appearance: none;
+		border: 2px solid $primary-color;
+		padding: 0 15px;
+		margin: 10px auto;
+		background-image: url("img/filter-blue.png");
+		background-repeat: no-repeat;
+		background-position: 90% center;
+	}
+
+	select::-ms-expand {
+    	display: none;
+	}
+}
+
+.search-heading {
+	font-family: $secondary-font;
+	color: $secondary-color;
+
+	h5 {
+		letter-spacing: 10px;
+		margin-bottom: 0px;
+	}
+
+	hr {
+		width: 40%;
+		height: 2px;
+		background-color: $secondary-color;
+		margin: 0 auto 5vh auto;
+	}
+}
+
+.search-heading-hb {
+	font-family: $header-font;
+	font-size: 9vmax;
+	color: $primary-color;
+	margin: 0;
+
+}
+
+@media only screen and (max-width: 1023px) {
+	.search-heading-hb {
+		font-size: 25vw;
+	}
+}
