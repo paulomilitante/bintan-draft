@@ -21,16 +21,18 @@ $(".article").hover(function(){
 	$(".article-text-2", this).hide();
 });
 
-$("#arrow-left").hover(function(){
-	artArr = $(this).attr('src');
-	$(this).attr('src','assets/img/blue-arrows-left-hover.png');
+$(".arrow-left-link").hover(function(){
+	$(".arrow-left-hover",this).show();
+	$(".arrow-left",this).hide();
 },function(){
-	$(this).attr('src',artArr);
+	$(".arrow-left-hover",this).hide();
+	$(".arrow-left",this).show();
 });
 
-$("#arrow-right").hover(function(){
-	artArr = $(this).attr('src');
-	$(this).attr('src','assets/img/blue-arrows-right-hover.png');
+$(".arrow-right-link").hover(function(){
+	$(".arrow-right-hover",this).show();
+	$(".arrow-right",this).hide();
 },function(){
-	$(this).attr('src',artArr);
+	$(".arrow-right-hover",this).hide();
+	$(".arrow-right",this).show();
 });

@@ -304,15 +304,18 @@ nav ul a {
   bottom: 5vh;
 }
 
-#arrow-left,
-#arrow-right {
+.arrow-left,
+.arrow-left-hover,
+.arrow-right,
+.arrow-right-hover {
   position: absolute;
   left: -7%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-#arrow-right {
+.arrow-right,
+.arrow-right-hover {
   right: -7%;
   transform: translate(50%, -50%);
   left: auto;
